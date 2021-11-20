@@ -1,0 +1,22 @@
+div {
+    margin: 3px; /* margin*/
+    border: solid; /*bordo: linea di dimensione che circonda la zona del padding e l'area del contenuto*/
+    border-color: gray; /*colore del bordo*/
+    padding: 4px; /*è uno spazio vuoto che può essere creato tra l'area del contenuto e il bordo*/
+
+    width: 100px;
+    height: 100px;
+}
+
+div#box1{
+    position: static; /*posizione di default, gli elementi si dispongono uno di seguito all'altro in verticale, distanziandosi in base ai margini*/
+    background-color: red;
+}
+div#box2{
+    position: static; /*posizione di default, gli elementi si dispongono uno di seguito all'altro in verticale, distanziandosi in base ai margini*/
+    background-color: green;
+}
+div#box3{
+    position: relative; /*è possibile stabilire uno spostamento del div rispetto alla posizione che normalmente assumerebbe di default, lo spostamento è assegnato tramite le proprietà top, right, bottom e left*/
+    background-color: blue;
+}
