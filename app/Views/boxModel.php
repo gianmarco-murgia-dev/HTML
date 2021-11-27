@@ -8,14 +8,19 @@
     <link rel="stylesheet" href="styles/boxModel.css">
 </head>
 <body>
-    <div id="box1">
-
+    <div class="div" id="box1"></div>
+    <div class="div" id="box2"></div>
+    <div class="div" id="box3"></div>
+    <div class="div" id="box4"></div>
+    <div class="div" id="box5"></div>
+    <div class="div" id="box6"></div>
+    <div class="div" id="box7"></div>
+    <div class="div" id="box8"></div>
+    <div id="box9">
+        <div id="box10">Well10</div>
+        <div id="box11">Well11</div>
+        <div id="box12">Well12</div>
     </div>
-    <div id="box2">
-
-    </div>
-    <div id="box3">
-
-    </div>
+    
 </body>
 </html>

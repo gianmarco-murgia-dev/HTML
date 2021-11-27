@@ -1,11 +1,12 @@
-div {
+div.div {
     margin: 3px; /* margin*/
     border: solid; /*bordo: linea di dimensione che circonda la zona del padding e l'area del contenuto*/
     border-color: gray; /*colore del bordo*/
     padding: 4px; /*è uno spazio vuoto che può essere creato tra l'area del contenuto e il bordo*/
 
-    width: 100px;
-    height: 100px;
+    width: 300px;
+
+    color: white;
 }
 
 div#box1{
@@ -17,6 +18,87 @@ div#box2{
     background-color: green;
 }
 div#box3{
-    position: relative; /*è possibile stabilire uno spostamento del div rispetto alla posizione che normalmente assumerebbe di default, lo spostamento è assegnato tramite le proprietà top, right, bottom e left*/
+    position: static; /*è possibile stabilire uno spostamento del div rispetto alla posizione che normalmente assumerebbe di default, lo spostamento è assegnato tramite le proprietà top, right, bottom e left*/
     background-color: blue;
+}
+div#box4{
+    position: relative; /*è possibile stabilire uno spostamento del div rispetto alla posizione che normalmente assumerebbe di default, 
+    lo spostamento è assegnato tramite le proprietà top, bottom, left e right*/
+    left: 18px;
+    top: 20px;
+    width: 400px;
+    background-color: red;
+
+    margin: 5px 10px 20px 20px; /* margin*/
+    height: 150px;
+
+}
+div#box5{
+    position: relative;
+    left: 232px;
+    top: -50px;
+    width: 150px;
+    background-color: orange;
+}
+div#box6{
+    position: absolute; /*un blocco posizionato in modo absolute può essere collocato in qualsiasi punto della pagina*/
+    /*FLOAT: permette di rimuovere dal normale flusso del documento e lo sposta su uno dei lati del suo contenitore*/
+    /*DISPLAY:BLOCK tutti gli elementi che agiscono come un blocco. ossia non si posizionano l'uno di fianco all'altro, ma uno sopra l'altro*/
+    /*VISIBILITY: HIDDEN/VISIBLE : consente di nascondere e rendere visibili gli elementi*/
+
+    left: 212px;
+    top: 350px;
+    padding: 4px;
+    width: 150px;
+    background-color: red;
+}
+div#box7{
+    position: absolute;
+    left: 405px;
+    top: 350px;
+    padding: 4px;
+    width: 150px;
+    background-color: green;
+}
+div#box8{
+    position: absolute;
+    left: 50px;
+    top: 350px;
+    padding: 4px;
+    width: 130px;
+    background-color: blue;
+}
+
+div#box9 div#box10, div#box9 div#box11{
+    margin: 5%;
+    display: inline-block; 
+    *display: inline; 
+    zoom: 1; 
+    vertical-align: top
+}
+
+div#box9{
+    position: absolute;
+    top: 450px;
+    width: 800px;
+    height: 200px;
+    background-color: green;
+}
+
+div#box10{
+    position: relative;
+    background-color: red;
+    width:35%
+}
+div#box11{
+    position: relative;
+    background-color: blue;
+    width:35%
+}
+
+div#box12{
+    position: absolute;
+    left: 300px;
+    background-color: purple;
+    width:30%
 }
